@@ -15,6 +15,14 @@ cd ClientSide
 npm install
 npm start
 REST API Calls
+
+| Name | Age | Gender |
+|------|-----|--------|
+| John | 25  | Male   |
+| Jane | 30  | Female |
+| Bob  | 40  | Male   |
+
+
 REST Call Endpoint	| Description
 |------|-----|--------|
 GET /	| Check to see if the parser is running.
