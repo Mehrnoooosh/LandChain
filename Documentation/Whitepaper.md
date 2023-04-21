@@ -1,7 +1,7 @@
 
-#LandChain: Decentralized Land Transactions
+# LandChain: Decentralized Land Transactions
 
-##Problem
+## Problem
 
 Blockchain technology provides a reliable way to have immutable data. This is something important in various use-cases. One of them is in selling and buying lands, houses, condos and so on. The importance is noticeable in a couple of aspects. First, it leads to access to accurate data which everyone can see the same and it eliminates any discrimination. Second, because it’s not centralized, no one could modify it to provide manipulated data, the thing that is possible in a centralized system. This is a significant feature of blockchain which is tamper-proof.
 It was a problem for many years in Ontario which just a specific group of people had access to history of a property so neither a buyer nor seller could not see the history or the history of similar properties to decide on a better buy or sell. Recently, it has changed, and a company could access the data and made it accessible for everyone. But the problem is not being solved completely and the data is still centralized. So, it has the potential to be manipulated and leads to misinformation.
@@ -14,7 +14,7 @@ One of the difficulties in software development is undertaking the exercise to b
 ##Governance is dissociated from code changes
 In a decentralized system, the parties involved with the system need to agree upon changes. They do this through a human governance process. Any changes need to be proposed, debated, modified, and accepted or rejected. At this point there is a disconnect. Most software development is done by individuals or teams. The software as a whole is what is presented back to the governance body for approval. The governance body approves and then it is back to an individual or a team to deploy the changes. The amount of overhead that this requires in coordination, individual organizations doing reviews and audits, and verifications that what was approved is what was posted makes this a slow and costly approach. The combination of data-driven state machines and a visual editor now gives the option of making the changes as part of the governance process. Proposed changes can be viewed in the editor, votes can take place to accept or reject, and the changes can be deployed using the multiple signatures of the governance body participants. This allows for changes that can happen as fast as the governance group can meet and approve them. It also provides an audit trail of changes and who authorized the changes, including the debates around the changes.
 
-##Who runs the user interface?
+## Who runs the user interface?
 This system needs to provide the users with a user interface. The very nature of a decentralized system means that you can't have one central application that runs the interface. But because the interface here is mostly for reporting on decentralized data, we can provide it independently.
 
 
@@ -69,4 +69,3 @@ Eventually, we’ll have three different plans provided to users:
 2.	Consultant Plan (Paid Plan): Provide advice on a buy or purchase using AI
 3.	Title Search Plan (Paid Plan): title search for lawyers
 4.	Integration Plan (Paid Plan): Other centralized system can use API provided here to register a listing status.
-![image](https://user-images.githubusercontent.com/114886170/233525069-c9a4bb23-ef4d-4a3d-84b1-7e9fec090d46.png)
