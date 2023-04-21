@@ -16,11 +16,11 @@ npm install
 npm start
 REST API Calls
 
-| Name | Age | Gender |
-|------|-----|--------|
-| John | 25  | Male   |
-| Jane | 30  | Female |
-| Bob  | 40  | Male   |
+| Name | Age |
+|------|-----|
+| John | 25  | 
+| Jane | 30  | 
+| Bob  | 40  |
 
 
 REST Call Endpoint	| Description
