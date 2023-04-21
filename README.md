@@ -7,7 +7,7 @@ LandChain provides a decentralized approach for registering any kind of property
 .
 
 # Getting Started
-Currently, we have a working version of a centralized service and database and a decentralized one. Centralized part is responsible for registering Admins, realtors, properties and applying authentication and authorization. In the decentralized part, transactions are being recorded. Go to the getting started document for information on how to install and run these applications.
+Currently, we have a working version of a centralized service and database and a decentralized one. Centralized part is responsible for registering Admins, realtors, properties and applying authentication and authorization. In the decentralized part, transactions are being recorded. Go to the [getting started](Documentation/Whitepaper.md) document for information on how to install and run these applications.
 
 # How to Contribute
 We will be setting up a discord channel and wiki where we will post related links and notes. Additionally, please contact alipour.kntu@gmail.com if you would like to participate in this project.
