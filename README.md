@@ -12,6 +12,9 @@ We will be setting up a discord channel and wiki where we will post related link
 
 # Scope of Lab
 The scope of LandChain is to provide reliable and accurate transaction data accessible for everyone.
+
 •	To allow everyone to see the transaction history of each property.
+
 •	To allow Realtors to register their listing
+
 •	To make sure transaction data are immutable
