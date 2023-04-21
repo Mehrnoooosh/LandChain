@@ -4,11 +4,17 @@
 Prerequisites:
 
 •	Node.js
+
 •	NPM
+
 •	Express.js
+
 •	Mongo database
+
 •	React.js
+
 •	Solidity
+
 •	Web3.js
 
 Clone the repository to your local machine, move to the ClientSide folder, run npm install
