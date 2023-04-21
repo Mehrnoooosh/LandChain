@@ -3,7 +3,8 @@
 
 # Decentralized Real Estate Transactions
 
-LandChain provides a decentralized approach for registering any kind of property transfers including condos, houses, and lands. In this way, we provide immutable data, accessible for everyone which can help on decide when buying a property. For more information, see the whitepaper.
+LandChain provides a decentralized approach for registering any kind of property transfers including condos, houses, and lands. In this way, we provide immutable data, accessible for everyone which can help on decide when buying a property. For more information, see the [link whitepaper](Documentation/Whitepaper.md)
+.
 
 # Getting Started
 Currently, we have a working version of a centralized service and database and a decentralized one. Centralized part is responsible for registering Admins, realtors, properties and applying authentication and authorization. In the decentralized part, transactions are being recorded. Go to the getting started document for information on how to install and run these applications.
