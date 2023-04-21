@@ -1,4 +1,6 @@
-![alt text](Documentation/LandChain-logos_transparent.png)
+
+<img src="rDocumentation/LandChain-logos_transparent.png" alt="alt text" width="500" />
+
 
 
 # LandChain: Decentralized Real Estate Transactions
