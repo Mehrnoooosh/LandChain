@@ -1,5 +1,5 @@
 
-<img src="Documentation/logo.png" alt="alt text text-center" width="300" /> 
+<img src="documentation/logo.png" alt="alt text text-center" width="300" /> 
 
 # Decentralized Real Estate Transactions
 
