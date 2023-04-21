@@ -1,5 +1,5 @@
 
-<img src="Documentation/LandChain-logos_transparent.png" alt="alt text text-center" width="400" />
+<img src="Documentation/LandChain-logos_transparent.png" alt="alt text text-center" width="100" />
 
 # Decentralized Real Estate Transactions
 
