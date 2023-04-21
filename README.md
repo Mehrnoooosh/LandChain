@@ -1,4 +1,4 @@
-![alt text](Documentation/logo.svg)
+![alt text](Documentation/lLandChain-logos_transparent.png)
 
 
 # LandChain: Decentralized Real Estate Transactions
