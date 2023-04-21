@@ -8,11 +8,11 @@ It was a problem for many years in Ontario which just a specific group of people
 Let’s assume a situation when someone decides to sell their house. Without the accessible and reliable data on recent sells in the neighborhood, it can be difficult to have a guess what would be a reasonable price for the house. It is the same as point of view of a buyer as well. Having the data can lead to a fair deal who both parties can be winners.
 Now we go a step further, and not asking for the data itself, but we are looking for reliable data which no one can manipulate it either deliberately or on-purpose. And the answer to this problem is blockchain.
 
-##Coding by stakeholders
+## Coding by stakeholders
 
 One of the difficulties in software development is undertaking the exercise to build up the requirements and to verify that the code that has been developed matches those requirements. There is a translation required from the system stakeholders to the developers and then back again. Custom coding in a computer language requires a specific set of knowledge that most stakeholders do not have the time or desire to achieve. Changing a dataset in a template requires a lower barrier to entry to the stakeholders. The existing work in modeling business processes has provided visual interpretations of the processes that stakeholders can grasp. By providing a visual editor for the templates that matches existing UML-style process design, the stakeholders are now able to design their own templates and verify how they will operate. This greatly reduces the amount of developer time required and assures the stakeholders that the process they are receiving matches their requirements.
 
-##Governance is dissociated from code changes
+## Governance is dissociated from code changes
 
 In a decentralized system, the parties involved with the system need to agree upon changes. They do this through a human governance process. Any changes need to be proposed, debated, modified, and accepted or rejected. At this point there is a disconnect. Most software development is done by individuals or teams. The software as a whole is what is presented back to the governance body for approval. The governance body approves and then it is back to an individual or a team to deploy the changes. The amount of overhead that this requires in coordination, individual organizations doing reviews and audits, and verifications that what was approved is what was posted makes this a slow and costly approach. The combination of data-driven state machines and a visual editor now gives the option of making the changes as part of the governance process. Proposed changes can be viewed in the editor, votes can take place to accept or reject, and the changes can be deployed using the multiple signatures of the governance body participants. This allows for changes that can happen as fast as the governance group can meet and approve them. It also provides an audit trail of changes and who authorized the changes, including the debates around the changes.
 
@@ -62,18 +62,15 @@ Eventually, we’ll have three different plans provided to users:
 
 
 ## LandChain Phases
-Phase 1 – Proof of concept:
-It includes testing, product development, Real-world trials
 
-Phase 2 – Launch centralized module:
-Getting config level data by a combination of automated process (accessing available APIs) and manual data entry for the data which not provided by API. The final goal of this phase is to have Realtors and properties register in the system.
-Phase 3 – Launch decentralized module:
-Ready to record transactions in blockchain for each listing.
+Phase 1 – Proof of concept: It includes testing, product development, Real-world trials
 
-Phase 4 – Providing API (Future work):
-In the future we want to even make it easier to integrate by proving APIs for recording listing and changing the state of the listing.
+Phase 2 – Launch centralized module: Getting config level data by a combination of automated process (accessing available APIs) and manual data entry for the data which not provided by API. The final goal of this phase is to have Realtors and properties register in the system.
 
-Phase 5 – Consultant module (Future work):
-Utilizing AI to process the existing data to provide advice on a sell or purchase
+Phase 3 – Launch decentralized module: Ready to record transactions in blockchain for each listing.
+
+Phase 4 – Providing API (Future work): In the future we want to even make it easier to integrate by proving APIs for recording listing and changing the state of the listing.
+
+Phase 5 – Consultant module (Future work): Utilizing AI to process the existing data to provide advice on a sell or purchase
 
 
