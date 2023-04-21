@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "PeydaWeb";
+  src: url("../fonts/Peyda-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "PeydaWeb";
+  src: url("../fonts/peyda-light.ttf") format("truetype");
+}
+
+html,
+body * {
+  font-family: "PeydaWeb";
+}
+#loader_body .loader {
+  position: absolute;
+  display: none;
+}
+
+#loader_body .loader:first-child {
+  width: 100vw;
+  position: fixed !important;
+  height: 100vh;
+  z-index: 9999999999;
+  background: rgb(0 0 0 / 20%);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  left: 0;
+  top: 0;
+  display: block !important;
+}
+
+#loading {
+  width: 100vw;
+  position: fixed;
+  height: 100vh;
+  z-index: 9999999999;
+  background: rgb(0 0 0 / 20%);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  left: 0;
+  top: 0;
+}
+
+.loading {
+  margin: auto;
+  position: fixed;
+  left: calc(50% - 50px);
+  top: calc(50% - 50px);
+  z-index: 99999999999;
+}
+
+.loader img {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  position: fixed;
+  left: calc(50% - 100px);
+  top: calc(50% - 100px);
+  z-index: 99999999999;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.Toastify div {
+  font-family: "PeydaWeb" !important;
+}
+
+a.active span.icon i {
+  color: #fff;
+}
+a span.icon i {
+  color: #bfbfbf;
+}
+.ant-upload-list-item-name {
+  cursor: pointer;
+}
+.ant-card-body {
+  padding: 16px !important;
+}
+
+a {
+  text-decoration: none !important;
+}
