@@ -9,10 +9,10 @@
   src: url("../fonts/peyda-light.ttf") format("truetype");
 }
 
-html,
+/* html,
 body * {
   font-family: "PeydaWeb";
-}
+} */
 #loader_body .loader {
   position: absolute;
   display: none;
@@ -84,4 +84,8 @@ a span.icon i {
 
 a {
   text-decoration: none !important;
+}
+
+[data-aos^=fade][data-aos^=fade]{
+  opacity: 1 !important;
 }

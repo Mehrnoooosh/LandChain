@@ -9,10 +9,18 @@ import { Realtors } from "../pages/realtors/Index";
 import SignIn from "../pages/SignIn";
 import ErrorPage from "./../pages/ErrorPage";
 import Home from "./../pages/Home";
+import Index from "./../pages/Index";
 
 let routes = [
     {
         path: "/",
+        element: <Index />,
+        name: 'Home',
+        icon: <HomeOutlined />,
+        breadcrumb: <BreadCrumb />
+    },
+    {
+        path: "/dashboard",
         element: <Main><Home /></Main>,
         name: 'Dashboard',
         icon: <HomeOutlined />,
