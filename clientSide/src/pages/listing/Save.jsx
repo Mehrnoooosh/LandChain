@@ -22,8 +22,7 @@ export const SaveList = () => {
         const contractAddress = '0x5B38Da6a701c568545dCfcB03FcB875f56beddC4';
         const contract = new web3.eth.Contract(contractAbi, contractAddress);
         const accounts = web3.eth.getAccounts();
-        let data = {};
-        contract.methods.recordTransaction(data).send({ from: accounts[0], gas: 100000 });
+        contract.methods.recordTransaction(values).send({ from: accounts[0], gas: 100000 });
 
         navigate(`/listing`);
       })
