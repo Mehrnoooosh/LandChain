@@ -4,11 +4,7 @@
 
 Prerequisites:
 
-•	Node.js
-
 •	NPM
-
-•	Express.js
 
 •	Mongo database
 
@@ -17,6 +13,8 @@ Prerequisites:
 •	Solidity
 
 •	Web3.js
+
+•	HardHat
 
 Clone the repository to your local machine, move to the ClientSide folder, run npm install
 git clone https://github.com/Mehrnoooosh/LandChain.git
@@ -42,3 +40,18 @@ REST API Calls
 | GET/Property?postalCode=xx&address=xx&count=xx | Get Properties by address, postalCode | 
 | POST/Property | Add New Property  | 
 
+
+
+# Hardhat
+
+This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+
+Try running some of the following tasks:
+
+```shell
+npx hardhat help
+npx hardhat test
+REPORT_GAS=true npx hardhat test
+npx hardhat node
+npx hardhat run scripts/deploy.js
+```
