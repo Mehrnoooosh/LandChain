@@ -36,7 +36,7 @@ REST API Calls
 | GET/Realtor/Id | Get Specific Realtor  | 
 | POST/Realtor | Add New Realtor  | 
 | GET/Listing/Id | Get Specific Listing  | 
-| GET/Listing?postalCode=xx&priceFrom=xx&priceTo=xx&dateFrom=x&dateTo=x&count=x | Get Listing by address, price, posted date  | 
+| GET/Listing?postalCode=x&minPrice=x&maxPrice=x&fromDate=x&toDate=x | Get Listing by address, price, posted date  | 
 | POST/Listing | Add New Listing  | 
 | GET/Property/Id | Get Specific Property  | 
 | GET/Property?postalCode=xx&address=xx&count=xx | Get Properties by address, postalCode | 
