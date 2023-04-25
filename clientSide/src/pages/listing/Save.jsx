@@ -3,6 +3,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import { UploadFile } from "../../components/UploadFile";
 import { getFormData, request, sendAlert } from "../../module/util";
+import web3 from '../../web3';
 const { Item } = Form;
 
 export const SaveList = () => {
@@ -16,6 +17,14 @@ export const SaveList = () => {
       window.ethereum.request({method: 'eth_requestAccounts'})
       .then(result => {
         sendAlert(true, 'You are charging from your wallet with address: ' + result[0]);
+
+        const contractAbi = {};
+        const contractAddress = '0x5B38Da6a701c568545dCfcB03FcB875f56beddC4';
+        const contract = new web3.eth.Contract(contractAbi, contractAddress);
+        const accounts = web3.eth.getAccounts();
+        let data = {};
+        contract.methods.recordTransaction(data).send({ from: accounts[0], gas: 100000 });
+
         navigate(`/listing`);
       })
   } else{
