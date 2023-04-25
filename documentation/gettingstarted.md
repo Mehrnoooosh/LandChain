@@ -14,7 +14,7 @@ Prerequisites:
 
 •	Web3.js
 
-•	HardHat
+•	Hardhat
 
 Clone the repository to your local machine, move to the ClientSide folder, run npm install
 git clone https://github.com/Mehrnoooosh/LandChain.git
